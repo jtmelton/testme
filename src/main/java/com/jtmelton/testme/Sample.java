@@ -4,7 +4,7 @@ public class Sample {
     public static void main(String[] args) {
         boolean s = true;
                 
-        if (s = false) {  //should produce finding - HERE
+        if (s == false) {  //should produce finding - HERE
             int i1 = "555";
             System.err.println("assignment");
         }
@@ -24,3 +24,4 @@ public class Sample {
         System.out.println("Hello World!");
     }
 }
+
